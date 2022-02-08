@@ -1,0 +1,108 @@
+.delivery-feature-section{
+    /* margin-top: 550px;
+    padding-bottom: 900px; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.delivery-feature-design{
+    width: 100%;
+    height: 100px;
+    background-color: #377DFF;
+    border-bottom-left-radius: 999px;
+    border-top-right-radius: 999px;
+    position: relative;
+    padding: 0 90px;
+}
+.delivery-feature-section-title{
+    color: #377DFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: absolute;
+    top: -30px;
+}
+.delivery-feature-section-heading{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.delivery-feature-section-desc{
+    color: #D1E0FB;
+    font-family: 'Poppins', sans-serif;
+    margin: 40px 0;
+    font-size: 13px;
+    line-height: 26px;
+    position: absolute;
+    top: 80px;
+    width: 355px;
+}
+.delivery-feature-bottom-content{
+    position: absolute;
+    top: 220px;
+}
+.delivery-bottom-title{
+    color: #D1E0FB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+.delivery-bottom-icon{
+    color: #377DFF;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.delivery-bottom-desc{
+    color: #D1E0FB;
+    width: 300px;
+    font-size: 14px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+.delivery-section-img-container{
+    position: absolute;
+    right: 90px;
+    top: -30px;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #1F2328;
+    box-shadow: -0px -0px 30px -7px rgba(0,0,0,0.6);
+}
+.delivery-section-img-container img{
+    height: 110%;
+    margin-top: -40px;
+}
+/* USING MEDIA QUERY FOR RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .delivery-feature-section{
+        height: 100vh;
+        margin-bottom: 620px;
+    }
+    .delivery-feature-design{
+        padding: 0 56px ;
+    }
+    .delivery-feature-section-heading{
+        font-size: 20px;
+    }
+    .delivery-feature-section-desc{
+        width: 280px;
+    }
+    .delivery-feature-bottom-content{
+        top: 280px;
+    }
+    .delivery-section-img-container{
+        position: absolute;
+        right: 0;
+        top: 630px;
+        width: 100%;
+        height: 400px;
+        border-radius: 10px;
+        background-color: #1F2328;
+        box-shadow: -0px -0px 30px -7px rgba(0,0,0,0.6);
+    }
+}
+   

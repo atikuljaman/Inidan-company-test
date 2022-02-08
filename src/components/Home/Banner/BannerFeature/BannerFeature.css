@@ -1,0 +1,28 @@
+.feature-detail-container{
+    background-image: linear-gradient(to top right, #2C2E32, #26292D);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px -6px #26292D;
+}
+.feature-icon-container{
+    background-color: #377dff0c;
+    width: 70px;
+    height: 70px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-icon{
+    color: #1154D1;
+    font-size: 40px;
+}
+.feature-title{
+    color: white;
+    margin: 20px 0;
+    font-size: 18px;
+}
+.feature-desc{
+    color: #D1E0FB;
+    font-size: 14px;
+}

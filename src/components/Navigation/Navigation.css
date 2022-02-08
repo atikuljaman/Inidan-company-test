@@ -1,0 +1,139 @@
+.navigation-container{
+    background-color: #212429;
+    padding: 20px 0;
+    position: relative;
+}
+
+.logo-container{
+    background-color: #377DFF;
+    color: white;
+    width: 142px;
+    height: 76%;
+    position: absolute;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-bottom-left-radius: 42px;
+    border-bottom-right-radius: 42px;
+    font-family: 'Pacifico', cursive;
+}
+.logo{
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+.hamburger-menu-icon{
+    display: none;
+}
+.nav-link-container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 5px;
+    background-color: #212429;
+}
+.nav-link-container li {
+    list-style: none;
+}
+.navigation-link{
+    color: #D1E0FB;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 0 25px;
+    transition: 0.3s ease-in-out;
+}
+.navigation-link:hover{
+    color: #377DFF;
+}
+.contact-btn{
+    background-color: #377DFF;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: 0.3s ease-in-out;
+}
+.contact-btn:hover{
+    box-shadow: 1px 1px 50px #377DFF;
+}
+.close-menu-icon-container{
+    display: none;
+}
+
+/* USING MEDIA QUERY FOR RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .navigation-container{
+        padding: 0px;
+    }
+    .logo-container{
+        width: 105px;
+        height: 60px;
+        /* margin-left: 10px; */
+        border-bottom-left-radius: 32px;
+        border-bottom-right-radius: 32px;
+    }
+    .logo{
+        font-size: 17px;
+    }
+    .hamburger-menu-icon-container{
+        text-align: end;
+        /* padding-right: 10px; */
+    }
+    .hamburger-menu-icon{
+        color: #D1E0FB;
+        font-size: 32px;
+        display: inline;
+        margin-top: 18px;
+    }
+    .nav-link-container{
+        background-color: #377DFF;
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        left: -100%;
+        margin-top: -50px;
+        z-index: 10;
+        transition: .4s ease-in-out;
+    }
+    .nav-link-container.active{
+        left: 0;
+    }
+    .nav-link-container li {
+        margin: 15px 0;
+    }
+    .navigation-link{
+        font-size: 25px;
+    }
+    .contact-btn{
+        width: 200px;
+        height: 50px;
+        margin: 0;
+        background-color: white;
+        color: #377DFF;
+        font-size: 25px;
+    }
+    .contact-btn:hover{
+        box-shadow:  1px 1px 50px white;
+    }
+    .close-menu-icon-container{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        padding: 10px;
+        text-align: end;
+        display: block;
+    }
+    .close-icon{
+        font-size: 35px;
+        color: white;
+    }
+    
+}

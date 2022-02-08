@@ -1,0 +1,67 @@
+.faq-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq-section-title{
+    color: #377DFF;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.faq-section-heading{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.faq-section-desc{
+    color: #D1E0FB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin: 20px 0;
+}
+.faq-bottom-content{
+    display: flex;
+    align-items: center;
+}
+.faq-bottom-icon-container{
+    height: 100%;
+    margin-right: 20px;
+}
+.faq-bottom-icon{
+    color: #377DFF;
+    font-size: 40px;
+}
+.faq-bottom-desc  h6{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.faq-bottom-desc p{
+    color: #D1E0FB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin: 0%;
+}
+.faq-bottom-container{
+    width: 1000px;
+    margin-top: 70px;
+}
+
+/* USING MEDIA QUERY FOR RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .faq-section{
+        margin-bottom: 300px;
+    }
+    .faq-section-desc{
+        text-align: center;
+    }
+    .faq-bottom-container{
+        width: 100%;
+    }
+}
